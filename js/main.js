@@ -21,25 +21,3 @@ let startBtn = document.getElementById('start'),
     monthValue = document.querySelector('.month-value'),
     dayValue =  document.querySelector('.day-value');
 
-console.log(startBtn);
-console.log(budgetValue);
-console.log(dayBudgetValue);
-console.log(levelValue);
-console.log(expensesValue);
-console.log(optionalExpensesValue);
-console.log(incomeValue);
-console.log(monthSavingsValue);
-console.log(yearSavingsValue);
-console.log(expensesItem);
-console.log(btns);
-console.log(expensesItemBtn);
-console.log(optionalExpensesBtn);
-console.log(countBudgetBtn);
-console.log(optionalExpensesItem);
-console.log(income);
-console.log(savings);
-console.log(sum);
-console.log(percent);
-console.log(yearValue);
-console.log(monthValue);
-console.log(dayValue);
