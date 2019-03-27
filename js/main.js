@@ -74,7 +74,7 @@ optionalExpensesBtn.addEventListener('click', function() {
     }
 });
 
-countBudgetBtn.addEventListener('click', function() {     //ВОТ ЭТОТ КОД
+countBudgetBtn.addEventListener('click', function() {
     if (flag) {
 
         if(appData.budget != undefined) {
