@@ -81,7 +81,7 @@ countBudgetBtn.addEventListener('click', function() {     //ВОТ ЭТОТ КО
 
             let sum = 0;
             for (var key in appData.expenses) {
-                sum += appData.expenses[key];
+                sum += +appData.expenses[key];
             }
 
             appData.moneyPerDay = ((appData.budget-sum)/ 30).toFixed();
